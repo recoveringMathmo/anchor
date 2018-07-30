@@ -56,7 +56,7 @@ distribution parameterizations (shown [here]())
 import anchor
 
 bm = anchor.BayesianModalities()
-modalities = bm.fit_transform(data)
+modalities = bm.fit_predict(data)
 ```
 
 If you want to see all the intermediate Bayes factors, then you can do:
